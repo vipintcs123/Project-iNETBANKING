@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "TestNG Session Test Automation Suite">
+
+
+<test name="Different testng Feature test">
+
+
+<classes>
+
+
+    <class name ="SeleniumSessions.ExceptionTimeOutTest" />
+  
+    <class name ="SeleniumSessions.GoogleTest" />
+    
+    <class name ="SeleniumSessions.GoogleTitleTest" />
+    
+    <class name ="SeleniumSessions.InvocationCountTest" />
+    
+     <class name ="SeleniumSessions.TestNgBasics" />
+       
+    <class name ="SeleniumSessions.TestNGFeatures" />
+    
+   
+</classes>
+
+</test>
+
+</suite>

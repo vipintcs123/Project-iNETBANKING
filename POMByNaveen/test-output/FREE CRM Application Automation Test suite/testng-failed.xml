@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREE CRM Application Automation Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FREE CRM Application Test Cases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="comcrm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyContactsLinkTest"/>
+        </methods>
+      </class> <!-- comcrm.qa.testcases.HomePageTest -->
+      <class name="comcrm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="crmsubscribeLogoImageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- comcrm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- FREE CRM Application Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Automation Test suite] -->
